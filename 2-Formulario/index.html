@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forms</title>
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            
+        }
+
+        button{
+            margin-top: 10px;
+        }
+
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <form action="submit" method="post">
+    <label for="login">Bem Vindo coloque seu Login</label>
+    <input type="text" placeholder="Nome de Usuário">
+    <input type="password" placeholder="Coloque sua senha">
+    <button type="submit">Esqueci minha senha</button>
+    </form>
+    <button type="submit">Entrar</button>
+</body>
+</html>

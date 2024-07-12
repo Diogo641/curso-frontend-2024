@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Seletores</title>
+
+    <style>
+        p{
+            color: blue;
+        }
+
+        .exemplo {
+            font-size: bold;
+
+        }
+        #header {
+            font-size: 24px;
+        }
+
+        [type='text'] {
+            border: 1px solid orangered;
+        }
+
+        div.exemplo{
+            background-color: yellow;
+        }
+
+        div > p{
+            color: green;
+        }
+
+        p + h3 {
+            margin-top: 40px;
+        }
+
+
+        p ~ h3{
+            font-style: italic;
+            
+        }
+
+        div ul li {
+            list-style-type: square;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit.</p>
+    <p class="exemplo">Lorem ipsum dolor sit.</p>
+    <p class="exemplo" id="header">Seletor por ID</p>
+    <p class="exemplo" type="text">Seletor por atributo</p>
+    <div class="exemplo">Seletor por Combinação</div>
+    <div>
+        
+        <p>Seletor Tipo Pai>Filho</p>
+        <h3>Seletor Adjacente</h3>
+        <h3>Seletor Irmão</h3>
+        <ul>Seletor Descendente
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+
+    </div>
+</body>
+</html>
