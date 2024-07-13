@@ -1,0 +1,46 @@
+@media (max-width: 480px ){
+
+    body{
+        background-color: black;
+        h1{
+            color: rgb(255, 0, 0);
+            font-style: italic;
+        }
+        button{
+            color: rgb(0, 255, 13);
+            background-color: black;
+        }
+        p{
+            color: #0dfd41;
+        }
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 481px){
+    body {
+        background-color: rgb(255, 166, 0);
+        h1{
+            color: brown;
+            font-style: oblique;
+            
+        }
+        button{
+            color: #fd0d0d;
+            font-style: italic;
+            background-color: black;
+        }
+        p{
+            color: #fd0d0d;
+            background-color: black;
+        }
+        
+        
+    }
+}
+
+
+
+
+
+
+

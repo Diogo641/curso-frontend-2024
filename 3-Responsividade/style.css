@@ -1,0 +1,23 @@
+@media (max-width: 480px){
+    body{
+        background-color: lightcoral;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 481px){
+    body {
+        background-color: lightgreen;
+    }
+}
+
+@media (max-width:1300px) and (min-width: 800px){
+    body {
+        background-color: lightskyblue;
+    }
+}
+
+@media (min-width: 16001px){
+    body {
+        background-color: lightslategray;
+    }
+}
