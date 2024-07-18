@@ -1,0 +1,12 @@
+.container {
+
+background-color: cornflowerblue;
+width: 50vw;
+height: 50vh;
+display: flex;
+align-items: center;
+}
+
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
